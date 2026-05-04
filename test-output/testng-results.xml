@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-04T13:52:02 MDT" name="Default suite" finished-at="2026-05-04T13:52:13 MDT" duration-ms="11518">
+    <groups>
+    </groups>
+    <test started-at="2026-05-04T13:52:02 MDT" name="Default test" finished-at="2026-05-04T13:52:13 MDT" duration-ms="11518">
+      <class name="com.selenium.demo.tests.LaunchBrowserTest">
+        <test-method signature="launchBrowser()[pri:0, instance:com.selenium.demo.tests.LaunchBrowserTest@7c7b252e]" started-at="2026-05-04T13:52:02 MDT" name="launchBrowser" finished-at="2026-05-04T13:52:13 MDT" duration-ms="11474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- com.selenium.demo.tests.LaunchBrowserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
