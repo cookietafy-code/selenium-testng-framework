@@ -14,11 +14,11 @@ pipeline {
             }
         }
 
-        stage('Build & Test') {
-            steps {
-                sh 'mvn clean test'
-            }
-        }
+      stage('Build & Test') {
+    steps {
+        sh 'mvn -f pom.xml clean test'
+    }
+}
     }
 
     post {
