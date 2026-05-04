@@ -7,18 +7,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Build & Test') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/cookietafy-code/selenium-testng-framework.git'
+                sh 'mvn clean test'
             }
         }
-
-      stage('Build & Test') {
-    steps {
-        sh 'mvn -f pom.xml clean test'
-    }
-}
     }
 
     post {
