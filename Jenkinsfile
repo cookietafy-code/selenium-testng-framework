@@ -16,7 +16,7 @@ pipeline {
 
     post {
         always {
-            echo 'Execution completed aug 30 nnnnnn'
+            echo 'Execution completed aug 30 nmmmnnnnn'
         }
     }
 }
